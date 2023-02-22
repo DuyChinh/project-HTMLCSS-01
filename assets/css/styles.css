@@ -627,9 +627,12 @@ a {
 }
 
 .footer .social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 28px;
     height: 28px;
-    border-radius: 3px;
+    /* border-radius: 3px; */
 }
 
 .footer .social-link:hover {
