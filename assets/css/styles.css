@@ -644,6 +644,7 @@ a {
     justify-content: center;
     width: 28px;
     height: 28px;
+    background: #F9F9F9;
 }
 
 .footer .social-link:hover {
