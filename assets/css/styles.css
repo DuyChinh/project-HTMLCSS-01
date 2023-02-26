@@ -6,6 +6,11 @@
     --primary-color: #0f1b4c;
 }
 
+body,
+html {
+    scroll-behavior: smooth;
+}
+
 html {
     font-size: 62.5%;
     /* 10px = 1 rem */
@@ -63,7 +68,7 @@ a {
 .hero-wrap {
     position: relative;
     background-color: #e6f0ff;
-    height: 100vh;
+    height: calc(100vh - 90px);
 }
 
 .navbar {
@@ -149,6 +154,8 @@ a {
 
 .hero .hero-img {
     position: absolute;
+    height: 540px;
+    object-fit: cover;
     right: calc((100vw - 1100px) / 2 - 100px);
     /* right: 65px; */
     bottom: 0;
@@ -652,7 +659,7 @@ a {
     justify-content: center;
     width: 28px;
     height: 28px;
-    background: #F9F9F9;
+    background: #f9f9f9;
 }
 
 .footer .social-link:hover {
